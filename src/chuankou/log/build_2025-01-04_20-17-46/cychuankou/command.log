@@ -1,0 +1,4 @@
+Invoking command in '/home/upre/UPRE3/src/cychuankou/build/cychuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/upre/.local/bin/cmake --build /home/upre/UPRE3/src/cychuankou/build/cychuankou -- -j6 -l6
+Invoked command in '/home/upre/UPRE3/src/cychuankou/build/cychuankou' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/upre/.local/bin/cmake --build /home/upre/UPRE3/src/cychuankou/build/cychuankou -- -j6 -l6
+Invoking command in '/home/upre/UPRE3/src/cychuankou/build/cychuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/upre/.local/bin/cmake --install /home/upre/UPRE3/src/cychuankou/build/cychuankou
+Invoked command in '/home/upre/UPRE3/src/cychuankou/build/cychuankou' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/upre/.local/bin/cmake --install /home/upre/UPRE3/src/cychuankou/build/cychuankou

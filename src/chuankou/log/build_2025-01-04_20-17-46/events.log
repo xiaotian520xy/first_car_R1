@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000613] (cychuankou) JobQueued: {'identifier': 'cychuankou', 'dependencies': OrderedDict()}
+[0.001169] (cychuankou) JobStarted: {'identifier': 'cychuankou'}
+[0.029826] (cychuankou) JobProgress: {'identifier': 'cychuankou', 'progress': 'cmake'}
+[0.031779] (cychuankou) JobProgress: {'identifier': 'cychuankou', 'progress': 'build'}
+[0.033154] (cychuankou) Command: {'cmd': ['/home/upre/.local/bin/cmake', '--build', '/home/upre/UPRE3/src/cychuankou/build/cychuankou', '--', '-j6', '-l6'], 'cwd': '/home/upre/UPRE3/src/cychuankou/build/cychuankou', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'upre'), ('LC_TIME', 'en_CA.UTF-8'), ('SSH_AGENT_PID', '3095'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/upre/UPRE/install/ze_msg_interfaces/lib:/home/upre/UPRE/install/target_bbox_msgs/lib:/home/upre/UPRE/install/orbbec_camera/lib:/home/upre/UPRE/install/orbbec_camera_msgs/lib:/home/upre/UPRE/install/message_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/upre'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin NX Developer Kit'), ('LC_MONETARY', 'en_CA.UTF-8'), ('MANAGERPID', '2629'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=529c64b8109dd70789ee2d476779233c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/upre/UPRE/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'upre'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (4GB ram)'), ('JETSON_SERIAL_NUMBER', '1422724320974'), ('JOURNAL_STREAM', '8:63821'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'upre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/upre/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/upre:@/tmp/.ICE-unix/3291,unix/upre:/tmp/.ICE-unix/3291'), ('INVOCATION_ID', '4afba2af0b7c42b0ac1ff00d4977029a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e10e686e_eeea_4610_92c1_0393bf476858'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/upre/UPRE/install/ze_serial_mcu:/home/upre/UPRE/install/IMG_Processor:/home/upre/UPRE/install/ze_msg_interfaces:/home/upre/UPRE/install/yolov8:/home/upre/UPRE/install/yolov5:/home/upre/UPRE/install/target_bbox_msgs:/home/upre/UPRE/install/separateRight:/home/upre/UPRE/install/separateLeft:/home/upre/UPRE/install/separateBall:/home/upre/UPRE/install/separate828:/home/upre/UPRE/install/orbbec_description:/home/upre/UPRE/install/orbbec_camera:/home/upre/UPRE/install/orbbec_camera_msgs:/home/upre/UPRE/install/ma_sub_pub:/home/upre/UPRE/install/message_interface:/home/upre/UPRE/install/ma_yolov5_tensorrt:/home/upre/UPRE/install/line_patrol3:/home/upre/UPRE/install/image_pub:/home/upre/UPRE/install/ice_yolov8:/home/upre/UPRE/install/fdilink_ahrs:/home/upre/UPRE/install/ballHide:/home/upre/UPRE/install/azure_kinect_ros2:/home/upre/UPRE/install/YOLOv5_Azure_Kinect:/home/upre/UPRE/install/TestPublisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/upre/UPRE3/src/cychuankou/build/cychuankou'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=529c64b8109dd70789ee2d476779233c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/upre/UPRE/install/ze_msg_interfaces/lib/python3.8/site-packages:/home/upre/UPRE/install/target_bbox_msgs/lib/python3.8/site-packages:/home/upre/UPRE/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/upre/UPRE/install/message_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/upre/UPRE/install/ze_serial_mcu:/home/upre/UPRE/install/IMG_Processor:/home/upre/UPRE/install/ze_msg_interfaces:/home/upre/UPRE/install/yolov8:/home/upre/UPRE/install/yolov5:/home/upre/UPRE/install/target_bbox_msgs:/home/upre/UPRE/install/separateRight:/home/upre/UPRE/install/separateLeft:/home/upre/UPRE/install/separateBall:/home/upre/UPRE/install/separate828:/home/upre/UPRE/install/orbbec_description:/home/upre/UPRE/install/orbbec_camera:/home/upre/UPRE/install/orbbec_camera_msgs:/home/upre/UPRE/install/ma_sub_pub:/home/upre/UPRE/install/message_interface:/home/upre/UPRE/install/ma_yolov5_tensorrt:/home/upre/UPRE/install/line_patrol3:/home/upre/UPRE/install/image_pub:/home/upre/UPRE/install/ice_yolov8:/home/upre/UPRE/install/fdilink_ahrs:/home/upre/UPRE/install/ballHide:/home/upre/UPRE/install/azure_kinect_ros2:/home/upre/UPRE/install/YOLOv5_Azure_Kinect:/home/upre/UPRE/install/TestPublisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3767-0004')]), 'shell': False}
+[0.099515] (-) TimerEvent: {}
+[0.126798] (cychuankou) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/upre/UPRE3/src/cychuankou/build/cychuankou/CMakeCache.txt is different than the directory /home/upre/cychuankou/build/cychuankou where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.199671] (-) TimerEvent: {}
+[0.221576] (cychuankou) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.271335] (cychuankou) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299861] (-) TimerEvent: {}
+[0.400661] (-) TimerEvent: {}
+[0.501487] (-) TimerEvent: {}
+[0.602258] (-) TimerEvent: {}
+[0.703031] (-) TimerEvent: {}
+[0.713111] (cychuankou) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.796742] (cychuankou) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.803110] (-) TimerEvent: {}
+[0.803601] (cychuankou) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.903326] (-) TimerEvent: {}
+[1.004109] (-) TimerEvent: {}
+[1.104920] (-) TimerEvent: {}
+[1.177057] (cychuankou) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205045] (-) TimerEvent: {}
+[1.275251] (cychuankou) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.280262] (cychuankou) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.305237] (-) TimerEvent: {}
+[1.405930] (-) TimerEvent: {}
+[1.506633] (-) TimerEvent: {}
+[1.546612] (cychuankou) StdoutLine: {'line': b'-- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[1.551177] (cychuankou) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/usr/local/share/serial/cmake)\n'}
+[1.555788] (cychuankou) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.606766] (-) TimerEvent: {}
+[1.707380] (-) TimerEvent: {}
+[1.761895] (cychuankou) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.807529] (-) TimerEvent: {}
+[1.908154] (-) TimerEvent: {}
+[1.914969] (cychuankou) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.946137] (cychuankou) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.946782] (cychuankou) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.947084] (cychuankou) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.969466] (cychuankou) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.969872] (cychuankou) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.973062] (cychuankou) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.980443] (cychuankou) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.983867] (cychuankou) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.008175] (cychuankou) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.008553] (-) TimerEvent: {}
+[2.008938] (cychuankou) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.011698] (cychuankou) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.018440] (cychuankou) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.041693] (cychuankou) StdoutLine: {'line': b'-- Generating done\n'}
+[2.044786] (cychuankou) StdoutLine: {'line': b'-- Build files have been written to: /home/upre/cychuankou/build/cychuankou\n'}
+[2.108756] (-) TimerEvent: {}
+[2.122507] (cychuankou) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target position_publisher\x1b[0m\n'}
+[2.208930] (-) TimerEvent: {}
+[2.239859] (cychuankou) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o\x1b[0m\n'}
+[2.309138] (-) TimerEvent: {}
+[2.409827] (-) TimerEvent: {}
+[2.510494] (-) TimerEvent: {}
+[2.611175] (-) TimerEvent: {}
+[2.711866] (-) TimerEvent: {}
+[2.812563] (-) TimerEvent: {}
+[2.913270] (-) TimerEvent: {}
+[3.013989] (-) TimerEvent: {}
+[3.114729] (-) TimerEvent: {}
+[3.215453] (-) TimerEvent: {}
+[3.316162] (-) TimerEvent: {}
+[3.416882] (-) TimerEvent: {}
+[3.517614] (-) TimerEvent: {}
+[3.618320] (-) TimerEvent: {}
+[3.719039] (-) TimerEvent: {}
+[3.819787] (-) TimerEvent: {}
+[3.920630] (-) TimerEvent: {}
+[4.021480] (-) TimerEvent: {}
+[4.122321] (-) TimerEvent: {}
+[4.223126] (-) TimerEvent: {}
+[4.323922] (-) TimerEvent: {}
+[4.424774] (-) TimerEvent: {}
+[4.525588] (-) TimerEvent: {}
+[4.626305] (-) TimerEvent: {}
+[4.727144] (-) TimerEvent: {}
+[4.827987] (-) TimerEvent: {}
+[4.928864] (-) TimerEvent: {}
+[5.029715] (-) TimerEvent: {}
+[5.130464] (-) TimerEvent: {}
+[5.231283] (-) TimerEvent: {}
+[5.331989] (-) TimerEvent: {}
+[5.432674] (-) TimerEvent: {}
+[5.533383] (-) TimerEvent: {}
+[5.634051] (-) TimerEvent: {}
+[5.734729] (-) TimerEvent: {}
+[5.835415] (-) TimerEvent: {}
+[5.936108] (-) TimerEvent: {}
+[6.036805] (-) TimerEvent: {}
+[6.137509] (-) TimerEvent: {}
+[6.238179] (-) TimerEvent: {}
+[6.338864] (-) TimerEvent: {}
+[6.439553] (-) TimerEvent: {}
+[6.540264] (-) TimerEvent: {}
+[6.640963] (-) TimerEvent: {}
+[6.741669] (-) TimerEvent: {}
+[6.842346] (-) TimerEvent: {}
+[6.943022] (-) TimerEvent: {}
+[7.043716] (-) TimerEvent: {}
+[7.144411] (-) TimerEvent: {}
+[7.245125] (-) TimerEvent: {}
+[7.345803] (-) TimerEvent: {}
+[7.446500] (-) TimerEvent: {}
+[7.547180] (-) TimerEvent: {}
+[7.647877] (-) TimerEvent: {}
+[7.748557] (-) TimerEvent: {}
+[7.849261] (-) TimerEvent: {}
+[7.949941] (-) TimerEvent: {}
+[8.050614] (-) TimerEvent: {}
+[8.151301] (-) TimerEvent: {}
+[8.251991] (-) TimerEvent: {}
+[8.352694] (-) TimerEvent: {}
+[8.453395] (-) TimerEvent: {}
+[8.554094] (-) TimerEvent: {}
+[8.654816] (-) TimerEvent: {}
+[8.755835] (-) TimerEvent: {}
+[8.859094] (-) TimerEvent: {}
+[8.960074] (-) TimerEvent: {}
+[9.060760] (-) TimerEvent: {}
+[9.161492] (-) TimerEvent: {}
+[9.262201] (-) TimerEvent: {}
+[9.362880] (-) TimerEvent: {}
+[9.463556] (-) TimerEvent: {}
+[9.564228] (-) TimerEvent: {}
+[9.664887] (-) TimerEvent: {}
+[9.765575] (-) TimerEvent: {}
+[9.866252] (-) TimerEvent: {}
+[9.966926] (-) TimerEvent: {}
+[10.067622] (-) TimerEvent: {}
+[10.168280] (-) TimerEvent: {}
+[10.268946] (-) TimerEvent: {}
+[10.369625] (-) TimerEvent: {}
+[10.470283] (-) TimerEvent: {}
+[10.570937] (-) TimerEvent: {}
+[10.671589] (-) TimerEvent: {}
+[10.772220] (-) TimerEvent: {}
+[10.872867] (-) TimerEvent: {}
+[10.973570] (-) TimerEvent: {}
+[11.074237] (-) TimerEvent: {}
+[11.174887] (-) TimerEvent: {}
+[11.275538] (-) TimerEvent: {}
+[11.376199] (-) TimerEvent: {}
+[11.476863] (-) TimerEvent: {}
+[11.577560] (-) TimerEvent: {}
+[11.678230] (-) TimerEvent: {}
+[11.778918] (-) TimerEvent: {}
+[11.879601] (-) TimerEvent: {}
+[11.980283] (-) TimerEvent: {}
+[12.081034] (-) TimerEvent: {}
+[12.181812] (-) TimerEvent: {}
+[12.282484] (-) TimerEvent: {}
+[12.383152] (-) TimerEvent: {}
+[12.483825] (-) TimerEvent: {}
+[12.584409] (-) TimerEvent: {}
+[12.685100] (-) TimerEvent: {}
+[12.785888] (-) TimerEvent: {}
+[12.886677] (-) TimerEvent: {}
+[12.987471] (-) TimerEvent: {}
+[13.088276] (-) TimerEvent: {}
+[13.188970] (-) TimerEvent: {}
+[13.289660] (-) TimerEvent: {}
+[13.390327] (-) TimerEvent: {}
+[13.490990] (-) TimerEvent: {}
+[13.591663] (-) TimerEvent: {}
+[13.692362] (-) TimerEvent: {}
+[13.793061] (-) TimerEvent: {}
+[13.844474] (cychuankou) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable position_publisher\x1b[0m\n'}
+[13.893221] (-) TimerEvent: {}
+[13.993890] (-) TimerEvent: {}
+[14.094586] (-) TimerEvent: {}
+[14.195252] (-) TimerEvent: {}
+[14.295950] (-) TimerEvent: {}
+[14.391884] (cychuankou) StdoutLine: {'line': b'[100%] Built target position_publisher\n'}
+[14.396039] (-) TimerEvent: {}
+[14.435409] (cychuankou) CommandEnded: {'returncode': 0}
+[14.496271] (-) TimerEvent: {}
+[14.557709] (cychuankou) JobProgress: {'identifier': 'cychuankou', 'progress': 'install'}
+[14.596501] (-) TimerEvent: {}
+[14.640145] (cychuankou) Command: {'cmd': ['/home/upre/.local/bin/cmake', '--install', '/home/upre/UPRE3/src/cychuankou/build/cychuankou'], 'cwd': '/home/upre/UPRE3/src/cychuankou/build/cychuankou', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'upre'), ('LC_TIME', 'en_CA.UTF-8'), ('SSH_AGENT_PID', '3095'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/upre/UPRE/install/ze_msg_interfaces/lib:/home/upre/UPRE/install/target_bbox_msgs/lib:/home/upre/UPRE/install/orbbec_camera/lib:/home/upre/UPRE/install/orbbec_camera_msgs/lib:/home/upre/UPRE/install/message_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/upre'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin NX Developer Kit'), ('LC_MONETARY', 'en_CA.UTF-8'), ('MANAGERPID', '2629'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=529c64b8109dd70789ee2d476779233c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/upre/UPRE/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'upre'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (4GB ram)'), ('JETSON_SERIAL_NUMBER', '1422724320974'), ('JOURNAL_STREAM', '8:63821'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'upre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/upre/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/upre:@/tmp/.ICE-unix/3291,unix/upre:/tmp/.ICE-unix/3291'), ('INVOCATION_ID', '4afba2af0b7c42b0ac1ff00d4977029a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e10e686e_eeea_4610_92c1_0393bf476858'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/upre/UPRE/install/ze_serial_mcu:/home/upre/UPRE/install/IMG_Processor:/home/upre/UPRE/install/ze_msg_interfaces:/home/upre/UPRE/install/yolov8:/home/upre/UPRE/install/yolov5:/home/upre/UPRE/install/target_bbox_msgs:/home/upre/UPRE/install/separateRight:/home/upre/UPRE/install/separateLeft:/home/upre/UPRE/install/separateBall:/home/upre/UPRE/install/separate828:/home/upre/UPRE/install/orbbec_description:/home/upre/UPRE/install/orbbec_camera:/home/upre/UPRE/install/orbbec_camera_msgs:/home/upre/UPRE/install/ma_sub_pub:/home/upre/UPRE/install/message_interface:/home/upre/UPRE/install/ma_yolov5_tensorrt:/home/upre/UPRE/install/line_patrol3:/home/upre/UPRE/install/image_pub:/home/upre/UPRE/install/ice_yolov8:/home/upre/UPRE/install/fdilink_ahrs:/home/upre/UPRE/install/ballHide:/home/upre/UPRE/install/azure_kinect_ros2:/home/upre/UPRE/install/YOLOv5_Azure_Kinect:/home/upre/UPRE/install/TestPublisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/upre/UPRE3/src/cychuankou/build/cychuankou'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=529c64b8109dd70789ee2d476779233c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/upre/UPRE/install/ze_msg_interfaces/lib/python3.8/site-packages:/home/upre/UPRE/install/target_bbox_msgs/lib/python3.8/site-packages:/home/upre/UPRE/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/upre/UPRE/install/message_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/upre/UPRE/install/ze_serial_mcu:/home/upre/UPRE/install/IMG_Processor:/home/upre/UPRE/install/ze_msg_interfaces:/home/upre/UPRE/install/yolov8:/home/upre/UPRE/install/yolov5:/home/upre/UPRE/install/target_bbox_msgs:/home/upre/UPRE/install/separateRight:/home/upre/UPRE/install/separateLeft:/home/upre/UPRE/install/separateBall:/home/upre/UPRE/install/separate828:/home/upre/UPRE/install/orbbec_description:/home/upre/UPRE/install/orbbec_camera:/home/upre/UPRE/install/orbbec_camera_msgs:/home/upre/UPRE/install/ma_sub_pub:/home/upre/UPRE/install/message_interface:/home/upre/UPRE/install/ma_yolov5_tensorrt:/home/upre/UPRE/install/line_patrol3:/home/upre/UPRE/install/image_pub:/home/upre/UPRE/install/ice_yolov8:/home/upre/UPRE/install/fdilink_ahrs:/home/upre/UPRE/install/ballHide:/home/upre/UPRE/install/azure_kinect_ros2:/home/upre/UPRE/install/YOLOv5_Azure_Kinect:/home/upre/UPRE/install/TestPublisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3767-0004')]), 'shell': False}
+[14.696636] (-) TimerEvent: {}
+[14.712191] (cychuankou) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.714382] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/lib/cychuankou/position_publisher\n'}
+[14.715025] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/ament_index/resource_index/package_run_dependencies/cychuankou\n'}
+[14.715418] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/ament_index/resource_index/parent_prefix_path/cychuankou\n'}
+[14.715710] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/ament_prefix_path.sh\n'}
+[14.716027] (cychuankou) StdoutLine: {'line': b'-- Installing: /home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/ament_prefix_path.dsv\n'}
+[14.716339] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/path.sh\n'}
+[14.716703] (cychuankou) StdoutLine: {'line': b'-- Installing: /home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/path.dsv\n'}
+[14.717251] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.bash\n'}
+[14.717658] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.sh\n'}
+[14.718036] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.zsh\n'}
+[14.718285] (cychuankou) StdoutLine: {'line': b'-- Installing: /home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.dsv\n'}
+[14.718539] (cychuankou) StdoutLine: {'line': b'-- Installing: /home/upre/cychuankou/install/cychuankou/share/cychuankou/package.dsv\n'}
+[14.718782] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/ament_index/resource_index/packages/cychuankou\n'}
+[14.719020] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/cmake/cychuankouConfig.cmake\n'}
+[14.719251] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/cmake/cychuankouConfig-version.cmake\n'}
+[14.719480] (cychuankou) StdoutLine: {'line': b'-- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/package.xml\n'}
+[14.731446] (cychuankou) CommandEnded: {'returncode': 0}
+[14.796881] (-) TimerEvent: {}
+[14.897754] (-) TimerEvent: {}
+[14.902930] (cychuankou) JobEnded: {'identifier': 'cychuankou', 'rc': 0}
+[14.905627] (-) EventReactorShutdown: {}

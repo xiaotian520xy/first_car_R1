@@ -1,0 +1,32 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)
+-- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/gf/UPRE1.0/src/chuankou/build/chuankou/CMakeFiles/CMakeOutput.log".
+[31mCMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findbase_interfaces_demo.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "base_interfaces_demo", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "base_interfaces_demo" with any of the following names:
+
+    base_interfaces_demoConfig.cmake
+    base_interfaces_demo-config.cmake
+
+  Add the installation prefix of "base_interfaces_demo" to CMAKE_PREFIX_PATH
+  or set "base_interfaces_demo_DIR" to a directory containing one of the
+  above files.  If "base_interfaces_demo" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

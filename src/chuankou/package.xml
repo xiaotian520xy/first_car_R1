@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>chuankou</name>
+  <version>0.0.0</version>
+  <description>A ROS 2 package for publishing position data over serial.</description>
+  <maintainer email="gf@todo.todo">gf</maintainer>
+  <license>Apache License 2.0</license> <!-- Replace with your actual license -->
+
+  <!-- Build dependencies -->
+  <build_depend>ament_cmake</build_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>nav_msgs</build_depend> <!-- Added nav_msgs dependency -->
+  <build_depend>geometry_msgs</build_depend> <!-- Added geometry_msgs dependency -->
+  <build_depend>serial</build_depend> <!-- Added serial dependency -->
+
+  <!-- Executable dependencies -->
+  <exec_depend>ament_cmake</exec_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>serial</exec_depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

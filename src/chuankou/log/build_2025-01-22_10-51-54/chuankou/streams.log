@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/home/gf/UPRE1.0/src/chuankou/build/chuankou': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gf/UPRE1.0/src/chuankou -DCMAKE_INSTALL_PREFIX=/home/gf/UPRE1.0/src/chuankou/install/chuankou
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.233s] -- The CXX compiler identification is GNU 11.4.0
+[0.242s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.338s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.343s] -- Detecting CXX compiler ABI info
+[0.433s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.439s] -- Detecting CXX compile features
+[0.440s] -- Detecting CXX compile features - done
+[0.445s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.946s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.041s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.082s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.086s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.092s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.153s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.155s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.243s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.277s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.313s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.323s] -- Looking for pthread.h
+[1.415s] -- Looking for pthread.h - found
+[1.415s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.496s] -- Found Threads: TRUE  
+[1.560s] -- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)
+[1.563s] -- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+[1.566s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.595s] -- Configuring incomplete, errors occurred!
+[1.595s] See also "/home/gf/UPRE1.0/src/chuankou/build/chuankou/CMakeFiles/CMakeOutput.log".
+[1.595s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[1.595s]   By not providing "Findbase_interfaces_demo.cmake" in CMAKE_MODULE_PATH this
+[1.595s]   project has asked CMake to find a package configuration file provided by
+[1.595s]   "base_interfaces_demo", but CMake did not find one.
+[1.595s] 
+[1.595s]   Could not find a package configuration file provided by
+[1.595s]   "base_interfaces_demo" with any of the following names:
+[1.595s] 
+[1.595s]     base_interfaces_demoConfig.cmake
+[1.595s]     base_interfaces_demo-config.cmake
+[1.595s] 
+[1.595s]   Add the installation prefix of "base_interfaces_demo" to CMAKE_PREFIX_PATH
+[1.595s]   or set "base_interfaces_demo_DIR" to a directory containing one of the
+[1.595s]   above files.  If "base_interfaces_demo" provides a separate development
+[1.595s]   package or SDK, be sure it has been installed.
+[1.595s] 
+[1.595s] [0m
+[1.600s] Invoked command in '/home/gf/UPRE1.0/src/chuankou/build/chuankou' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gf/UPRE1.0/src/chuankou -DCMAKE_INSTALL_PREFIX=/home/gf/UPRE1.0/src/chuankou/install/chuankou

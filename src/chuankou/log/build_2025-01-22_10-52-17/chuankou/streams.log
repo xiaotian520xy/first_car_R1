@@ -1,0 +1,34 @@
+[0.009s] Invoking command in '/home/gf/UPRE1.0/src/chuankou/build/chuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gf/UPRE1.0/src/chuankou -DCMAKE_INSTALL_PREFIX=/home/gf/UPRE1.0/src/chuankou/install/chuankou
+[0.017s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.144s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.146s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.150s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.184s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.185s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.292s] -- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)
+[0.294s] -- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+[0.295s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.319s] -- Configuring incomplete, errors occurred!
+[0.319s] See also "/home/gf/UPRE1.0/src/chuankou/build/chuankou/CMakeFiles/CMakeOutput.log".
+[0.320s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.320s]   By not providing "Findbase_interfaces_demo.cmake" in CMAKE_MODULE_PATH this
+[0.320s]   project has asked CMake to find a package configuration file provided by
+[0.320s]   "base_interfaces_demo", but CMake did not find one.
+[0.320s] 
+[0.320s]   Could not find a package configuration file provided by
+[0.320s]   "base_interfaces_demo" with any of the following names:
+[0.320s] 
+[0.320s]     base_interfaces_demoConfig.cmake
+[0.320s]     base_interfaces_demo-config.cmake
+[0.320s] 
+[0.320s]   Add the installation prefix of "base_interfaces_demo" to CMAKE_PREFIX_PATH
+[0.320s]   or set "base_interfaces_demo_DIR" to a directory containing one of the
+[0.320s]   above files.  If "base_interfaces_demo" provides a separate development
+[0.321s]   package or SDK, be sure it has been installed.
+[0.321s] 
+[0.321s] [0m
+[0.324s] Invoked command in '/home/gf/UPRE1.0/src/chuankou/build/chuankou' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gf/UPRE1.0/src/chuankou -DCMAKE_INSTALL_PREFIX=/home/gf/UPRE1.0/src/chuankou/install/chuankou

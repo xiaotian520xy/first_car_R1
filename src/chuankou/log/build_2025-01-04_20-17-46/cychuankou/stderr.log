@@ -1,0 +1,1 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/upre/UPRE3/src/cychuankou/build/cychuankou/CMakeCache.txt is different than the directory /home/upre/cychuankou/build/cychuankou where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m

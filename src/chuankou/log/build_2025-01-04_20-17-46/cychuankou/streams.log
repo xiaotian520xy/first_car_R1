@@ -1,0 +1,53 @@
+[0.034s] Invoking command in '/home/upre/UPRE3/src/cychuankou/build/cychuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/upre/.local/bin/cmake --build /home/upre/UPRE3/src/cychuankou/build/cychuankou -- -j6 -l6
+[0.126s] [0mCMake Error: The current CMakeCache.txt directory /home/upre/UPRE3/src/cychuankou/build/cychuankou/CMakeCache.txt is different than the directory /home/upre/cychuankou/build/cychuankou where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.220s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.270s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.712s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.796s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.802s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.274s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.546s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.550s] -- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+[1.555s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.761s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.914s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.945s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.946s] -- Configured cppcheck include dirs: 
+[1.946s] -- Configured cppcheck exclude dirs and/or files: 
+[1.968s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.969s] -- Configured cpplint exclude dirs and/or files: 
+[1.972s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.979s] -- Added test 'lint_cmake' to check CMake code style
+[1.983s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.007s] -- Added test 'uncrustify' to check C / C++ code style
+[2.008s] -- Configured uncrustify additional arguments: 
+[2.010s] -- Added test 'xmllint' to check XML markup files
+[2.017s] -- Configuring done
+[2.041s] -- Generating done
+[2.044s] -- Build files have been written to: /home/upre/cychuankou/build/cychuankou
+[2.121s] [35m[1mScanning dependencies of target position_publisher[0m
+[2.239s] [ 50%] [32mBuilding CXX object CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o[0m
+[13.844s] [100%] [32m[1mLinking CXX executable position_publisher[0m
+[14.391s] [100%] Built target position_publisher
+[14.435s] Invoked command in '/home/upre/UPRE3/src/cychuankou/build/cychuankou' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/upre/.local/bin/cmake --build /home/upre/UPRE3/src/cychuankou/build/cychuankou -- -j6 -l6
+[14.644s] Invoking command in '/home/upre/UPRE3/src/cychuankou/build/cychuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/upre/.local/bin/cmake --install /home/upre/UPRE3/src/cychuankou/build/cychuankou
+[14.711s] -- Install configuration: ""
+[14.713s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/lib/cychuankou/position_publisher
+[14.714s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/ament_index/resource_index/package_run_dependencies/cychuankou
+[14.714s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/ament_index/resource_index/parent_prefix_path/cychuankou
+[14.715s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/ament_prefix_path.sh
+[14.715s] -- Installing: /home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/ament_prefix_path.dsv
+[14.715s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/path.sh
+[14.716s] -- Installing: /home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/path.dsv
+[14.716s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.bash
+[14.717s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.sh
+[14.717s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.zsh
+[14.717s] -- Installing: /home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.dsv
+[14.717s] -- Installing: /home/upre/cychuankou/install/cychuankou/share/cychuankou/package.dsv
+[14.718s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/ament_index/resource_index/packages/cychuankou
+[14.718s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/cmake/cychuankouConfig.cmake
+[14.718s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/cmake/cychuankouConfig-version.cmake
+[14.718s] -- Up-to-date: /home/upre/cychuankou/install/cychuankou/share/cychuankou/package.xml
+[14.732s] Invoked command in '/home/upre/UPRE3/src/cychuankou/build/cychuankou' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/upre/.local/bin/cmake --install /home/upre/UPRE3/src/cychuankou/build/cychuankou

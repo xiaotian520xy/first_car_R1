@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findbase_interfaces_demo.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "base_interfaces_demo", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "base_interfaces_demo" with any of the following names:
+
+    base_interfaces_demoConfig.cmake
+    base_interfaces_demo-config.cmake
+
+  Add the installation prefix of "base_interfaces_demo" to CMAKE_PREFIX_PATH
+  or set "base_interfaces_demo_DIR" to a directory containing one of the
+  above files.  If "base_interfaces_demo" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

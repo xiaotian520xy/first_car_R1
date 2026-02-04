@@ -1,0 +1,16 @@
+/home/upre/cychuankou/install/cychuankou/lib/cychuankou/position_publisher
+/home/upre/cychuankou/install/cychuankou/share/ament_index/resource_index/package_run_dependencies/cychuankou
+/home/upre/cychuankou/install/cychuankou/share/ament_index/resource_index/parent_prefix_path/cychuankou
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/ament_prefix_path.sh
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/ament_prefix_path.dsv
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/path.sh
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/environment/path.dsv
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.bash
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.sh
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.zsh
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/local_setup.dsv
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/package.dsv
+/home/upre/cychuankou/install/cychuankou/share/ament_index/resource_index/packages/cychuankou
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/cmake/cychuankouConfig.cmake
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/cmake/cychuankouConfig-version.cmake
+/home/upre/cychuankou/install/cychuankou/share/cychuankou/package.xml

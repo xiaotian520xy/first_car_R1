@@ -1,0 +1,6 @@
+Invoking command in '/home/upre/cychuankou/build/cychuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/upre/cychuankou -DCMAKE_INSTALL_PREFIX=/home/upre/cychuankou/install/cychuankou
+Invoked command in '/home/upre/cychuankou/build/cychuankou' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/upre/cychuankou -DCMAKE_INSTALL_PREFIX=/home/upre/cychuankou/install/cychuankou
+Invoking command in '/home/upre/cychuankou/build/cychuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/upre/cychuankou/build/cychuankou -- -j8 -l8
+Invoked command in '/home/upre/cychuankou/build/cychuankou' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/upre/cychuankou/build/cychuankou -- -j8 -l8
+Invoking command in '/home/upre/cychuankou/build/cychuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/upre/cychuankou/build/cychuankou
+Invoked command in '/home/upre/cychuankou/build/cychuankou' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/upre/cychuankou/build/cychuankou

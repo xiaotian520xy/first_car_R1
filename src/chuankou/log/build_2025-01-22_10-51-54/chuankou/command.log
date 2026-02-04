@@ -1,0 +1,2 @@
+Invoking command in '/home/gf/UPRE1.0/src/chuankou/build/chuankou': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gf/UPRE1.0/src/chuankou -DCMAKE_INSTALL_PREFIX=/home/gf/UPRE1.0/src/chuankou/install/chuankou
+Invoked command in '/home/gf/UPRE1.0/src/chuankou/build/chuankou' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gf/UPRE1.0/src/chuankou -DCMAKE_INSTALL_PREFIX=/home/gf/UPRE1.0/src/chuankou/install/chuankou
