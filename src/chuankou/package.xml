@@ -19,6 +19,7 @@
   <exec_depend>nav_msgs</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>serial</exec_depend>
+  <exec_depend>fyt_msg</exec_depend>
 
   <!-- Test dependencies -->
   <test_depend>ament_lint_auto</test_depend>

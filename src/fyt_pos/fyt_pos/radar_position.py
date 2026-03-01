@@ -50,7 +50,7 @@ class BasePositionPublisher(Node):
 
         # 低通滤波参数
         self.alpha_x = 0.2
-        # self.alpha_y = 0.2
+        self.alpha_y = 0.2
         self.last_x = 0.0
         self.last_y = 0.0
 
@@ -163,10 +163,10 @@ class BasePositionPublisher(Node):
         )
 
         # 进行低通滤波
-        rx_final = self.low_pass_filter(rx_, self.last_x, self.alpha_x)
-        # ry_final = self.low_pass_filter(ry, self.last_y, self.alpha_y)
+        rx_final = self.low_pass_filter(rx, self.last_x, self.alpha_x)
+        ry_final = self.low_pass_filter(ry_, self.last_y, self.alpha_y)
         self.last_x = rx_final
-        # self.last_y = ry_final
+        self.last_y = ry_final
 
         # yaw归一化到（-pi，pi）
         rel_yaw = yaw_base - self.init_yaw

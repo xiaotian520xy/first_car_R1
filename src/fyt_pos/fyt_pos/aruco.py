@@ -94,9 +94,9 @@ class ArucoDetect(Node):
                             center_y = tvec[1]  # 上+下-
                             center_z = tvec[2]  # 前-后+
 
-                            if center_x > 1.25:
+                            if center_x > 2.5:
                                 self.connect_flag = 1
-                            elif center_x < -1.25:
+                            elif center_x < 1.5:
                                 self.connect_flag = 2
                             else:
                                 self.connect_flag = 3

@@ -47,6 +47,11 @@ def generate_launch_description():
         output='screen'
     )
 
+    pr_node = ExecuteProcess(
+        cmd=['ros2', 'run', 'fyt_pos', 'path'],
+        output='screen'
+    )
+    
     # 定义要包含的 launch 文件
 
     livox_launch = IncludeLaunchDescription(
@@ -67,6 +72,7 @@ def generate_launch_description():
     ld.add_action(position_publisher_node)
     ld.add_action(aruco_node)
     ld.add_action(connect_node)
+    ld.add_action(pr_node)
     # 4. 最后启动执行节点
     ld.add_action(send_node)
     ld.add_action(recieve_node)

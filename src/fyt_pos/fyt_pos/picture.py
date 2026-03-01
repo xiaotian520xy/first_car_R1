@@ -17,7 +17,7 @@ class PictureShow(Node):
         self.pic2_img = cv2.imread(self.pic2)
 
         # 当前显示的图片
-        self.current_img = self.pic0_img if self.pic0_img is not None else np.zeros(
+        self.current_img = self.pic1_img if self.pic0_img is not None else np.zeros(
             (720, 1280, 3), dtype=np.uint8)
 
         # 创建窗口
@@ -54,7 +54,7 @@ class PictureShow(Node):
         elif flag_ == 2:
             new_img = self.pic2_img
         else:
-            new_img = self.pic0_img
+            new_img = self.pic1_img
 
         # 更新当前图片
         if new_img is not None:

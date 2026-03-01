@@ -3,6 +3,7 @@
 #include "std_msgs/msg/float64.hpp"
 #include "std_msgs/msg/char.hpp"
 #include "serial/serial.h"
+#include "nav_msgs/msg/odometry.hpp"
 #include "geometry_msgs/msg/point_stamped.hpp"
 #include <mutex>
 #include <chrono>
@@ -60,7 +61,7 @@ private:
     {
         try
         {
-            serial_port_.setPort("/dev/ros2_");
+            serial_port_.setPort("/dev/ttyUSB0");
             serial_port_.setBaudrate(115200);
             serial::Timeout to = serial::Timeout::simpleTimeout(1000);
             serial_port_.setTimeout(to);
@@ -190,9 +191,11 @@ private:
             try
             {
                 serial_port_.write(frame.data(), frame.size());
+                /*
                 RCLCPP_INFO(this->get_logger(), "Sent data: x=%.5f, y=%.5f, z=%.5f, yaw=%.5f, connect=%d, restart=%d",
                             data_.position_x, data_.position_y, data_.position_z, data_.yaw,
                             data_.connect, data_.restart_flag);
+                */
             }
             catch (const std::exception &e)
             {
