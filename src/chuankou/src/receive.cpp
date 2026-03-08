@@ -14,6 +14,7 @@ public:
         aruco_pub = this->create_publisher<std_msgs::msg::Char>("/aruco_flag", 10);
         array_pub = this->create_publisher<fyt_msg::msg::IntArray>("/path_result", 10);
         flag_pub = this->create_publisher<std_msgs::msg::Bool>("/path_flag", 10);
+        R1_path_pub = this->create_publisher<std_msgs::msg::Char>("R1_path", 10);
         try
         {
             my_serial = std::make_shared<serial::Serial>("/dev/ttyUSB0", 115200, serial::Timeout::simpleTimeout(100));
@@ -112,6 +113,35 @@ private:
         }
     }
 
+    uint8_t get_r1_path()
+    {
+        uint8_t k, l = 0;
+        uint8_t r2_path = path[0];
+        for(uint8_t id : R1Buffer)
+        {
+            if((id - r2_path) % 3 == 0){
+                k++;
+            }
+            if(id % 3 == 0){
+                l++;
+            }
+        }
+        if(k > 0){
+            return r2_path;
+        }else{
+            int8_t dif = R1Buffer[0] - r2_path;
+            if(l > 0){
+                return 3;
+            }else if(dif == -1){
+                return 2;
+            }else if(dif == -2 || dif % 3 == 1){
+                return 1;
+            }else{
+                return 0;
+            }
+        }
+    }
+
     void get_result()
     {
         setGrid();
@@ -130,7 +160,8 @@ private:
         else {
             path.insert(path.begin() + 1, 0);
         }
-        path.insert(path.begin(),0xAA);
+        path.insert(path.begin() + 1, get_r1_path());
+        path.insert(path.begin(), 0xAA);
         path.push_back(0xBB);  
     }
 
@@ -196,6 +227,13 @@ private:
                     array_pub->publish(msg);
                     RCLCPP_INFO(this->get_logger(), "get array:");
                     RCLCPP_INFO(this->get_logger(), "%s", array_str.c_str());
+                    auto r1_msg = std_msgs::msg::Char();
+                    r1_msg.data = path[2];
+                    R1_path_pub->publish(r1_msg);
+                    path.clear();
+                    R1Buffer.clear();
+                    R2Buffer.clear();
+                    FaBuffer.clear();
                 }
             }
         }catch(const std::exception& e){
@@ -208,6 +246,7 @@ private:
     rclcpp::Publisher<fyt_msg::msg::IntArray>::SharedPtr array_pub;
     std::shared_ptr<serial::Serial> my_serial;
     rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr flag_pub;
+    rclcpp::Publisher<std_msgs::msg::Char>::SharedPtr R1_path_pub;
 };
 
 int main(int argc, char **argv)

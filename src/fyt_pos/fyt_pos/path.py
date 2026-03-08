@@ -14,7 +14,7 @@ class SendPath(Node):
         super().__init__('send_path')
         self.path_data = None
         self.display_flag = False
-        self.window_size = (600, 600)  # 固定窗口大小
+        self.window_size = (500, 500)  # 固定窗口大小
 
         self.path_sub = self.create_subscription(
             IntArray,
@@ -105,7 +105,7 @@ class SendPath(Node):
 
         # 调整二维码大小以适应窗口
         qr_image_resized = qr_image.resize(
-            (self.window_size[0] - 50, self.window_size[1] - 50),
+            (self.window_size[0] - 100, self.window_size[1] - 100),
             Image.Resampling.LANCZOS
         )
 

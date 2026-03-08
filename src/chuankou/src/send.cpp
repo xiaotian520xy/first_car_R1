@@ -29,6 +29,9 @@ public:
         aruco_sub_ = this->create_subscription<std_msgs::msg::Char>(
             "/connect_aruco", 10,
             std::bind(&CombinedPublisher::connect_callback, this, std::placeholders::_1));
+        R1_path_sub_ = this->create_subscription<std_msgs::msg::Char>(
+            "/R1_path", 10,
+            std::bind(&CombinedPublisher::R1_path_callback, this, std::placeholders::_1));
         // 初始化定时器
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(10),
@@ -48,6 +51,7 @@ private:
         float position_z = 0.0;
         float yaw = 0.0;
         uint8_t connect = 0;
+        uint8_t R1_path = 0;
         bool restart_flag = true;
     };
 
@@ -122,6 +126,12 @@ private:
         data_.connect = msg->data;
     }
 
+    void R1_path_callback(const std_msgs::msg::Char::SharedPtr msg)
+    {
+        std::lock_guard<std::mutex> lock(mutex_);
+        data_.R1_path = msg->data;
+    }
+
     // 定时器回调
     void timer_callback()
     {
@@ -157,7 +167,7 @@ private:
             }
         }
 
-        std::array<uint8_t, 21> frame;
+        std::array<uint8_t, 22> frame;
         frame[0] = 0xFF;
 
         size_t offset = 1;
@@ -175,6 +185,7 @@ private:
         copy_float(data_.position_z);
         copy_float(data_.yaw);
         frame[offset++] = data_.connect;
+        frame[offset++] = data_.R1_path;
         frame[offset++] = data_.restart_flag;
 
         // 计算校验和
@@ -191,11 +202,10 @@ private:
             try
             {
                 serial_port_.write(frame.data(), frame.size());
-                /*
-                RCLCPP_INFO(this->get_logger(), "Sent data: x=%.5f, y=%.5f, z=%.5f, yaw=%.5f, connect=%d, restart=%d",
+
+                RCLCPP_INFO(this->get_logger(), "Sent data: x=%.5f, y=%.5f, z=%.5f, yaw=%.5f, connect=%d, r1_path=%d, restart=%d",
                             data_.position_x, data_.position_y, data_.position_z, data_.yaw,
-                            data_.connect, data_.restart_flag);
-                */
+                            data_.connect, data_.R1_path, data_.restart_flag);
             }
             catch (const std::exception &e)
             {
@@ -208,6 +218,7 @@ private:
     rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr position_sub_;
     rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr yaw_sub_;
     rclcpp::Subscription<std_msgs::msg::Char>::SharedPtr aruco_sub_;
+    rclcpp::Subscription<std_msgs::msg::Char>::SharedPtr R1_path_sub_;
     rclcpp::TimerBase::SharedPtr timer_;
     serial::Serial serial_port_;
     std::mutex mutex_; // 线程锁
